@@ -1,0 +1,592 @@
+*{
+    margin: 0px;
+    font-size: arial;
+    border: border-box;
+}
+.navbar{
+    background-color:#0f1111;
+    color: white;
+    height: 65px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav-icon{
+    height: 50px;
+    width: 100px;
+}
+.icon{
+    background-image: url("https://1000marcas.net/wp-content/uploads/2019/11/Logo-Amazon.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.first-add{
+    margin-left: 12px;
+    font-size: 0.85rem;
+    color:#cccccc
+}
+.nav-add{
+    cursor: pointer;
+}
+.second-add{
+    margin-left: 4px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: center;
+    background-color: pink;
+    border-radius: 4px;
+    height: 40px;
+    width: 620px;
+}
+.nav-search:hover{
+    border:2px solid pink;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+.option{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.search-input{
+    font-size: 1rem;
+    width: 100%;
+    border:none;
+}
+.search-icon{
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.signin{
+    cursor: pointer;
+}
+.hello{
+    font-size: 0.8rem;
+}
+.account{
+    font-size: 1.1rem;
+}
+.return1{
+    font-size: 0.85rem;
+}
+.order{
+    font-size: 1.2rem;
+}
+.cart{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/643/145/original/vector-shopping-cart-icon.jpg");
+    height: 40px;
+    width: 50px;
+    background-size: cover;
+    display: flex;
+}
+.panel{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    text-align: center;
+    height: 38px;
+    font-weight:700;
+}
+.notes{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.notes p{
+    font-size: 1.1rem;
+}
+.img{
+    align-items: center;
+    height: 24px;
+    width: 25px;
+
+}
+.mini p{
+    display:inline;
+    width: 77%;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.value{
+    border:none;
+}
+.gift{
+    display: flex;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.craker{
+    background-image: url("https://m.media-amazon.com/images/G/31/Events/img23/Jupiter23/Homepage/Phase3/J23_P3_SWM_Static_V2._CB575154284_.jpg");
+    background-size: cover;
+    height: 20px;
+    width: 23px;
+    font-size: 1rem;
+}
+.gift1{
+    font-size: 1.3rem;
+}
+.hero{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/Events/img23/Jupiter23/Homepage/Phase2/J23_P2_PC_NTA_Hero_2x_V4._CB575292684_.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 320px;
+    background-size: cover;
+    cursor: pointer;
+}
+.hero1{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-bottom: 25px;
+    width: 70%;
+    font-size: 0.95rem;
+}
+.hero1 p{
+    cursor:auto;
+}
+.hero1 a{
+    cursor: pointer;
+    color: #007185;
+}
+.shop{
+    background-color: #e2e7e6;
+    display:flex ;
+    justify-content: space-evenly;
+}
+.box{
+    width: 23%;
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 310px;
+    padding: 20px 0px 15px;
+}
+.box-img1{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/banner/GW/stripe/mainban/Desktop1._SY304_CB575274901_.jpg");
+    cursor: pointer;
+    height: 250px;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content p{
+    color: #007185;
+    cursor: pointer;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.box-img2{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/certified_refurbished/anjaga/Jupiter23/JupiterGWCampaigns/Desktop_CC02_small._SY304_CB575045018_.jpg");
+    height: 250px;
+    cursor: pointer;
+}
+.box-img3{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/nbshagun/Jupiter/CLP/Tiles/18oct/D98993888_Jupiter1_Desktop_CC_379X304._SY304_CB576571331_.jpg");
+    height: 250px;
+    cursor: pointer;
+}
+.box-img4{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img22/GW/CC/Headphones_Desktop_Cat_Card_1x_1._SY304_CB575831742_.jpg");
+    height: 250px;
+    cursor: pointer;
+}
+.box-img5{
+  background-image: url("https://m.media-amazon.com/images/I/91tFSBrxCbL._AC_UF226,226_FMjpg_.jpg");
+  height: 250px;
+    cursor: pointer;
+    background-size: cover;
+}
+.box-img6{
+    background-image: url("https://m.media-amazon.com/images/I/41dTwJXV6xL._AC_UF226,226_FMjpg_.jpg");
+    height: 250px;
+    cursor: pointer;
+    background-size: cover;
+}
+.box-img7{
+    background-image: url("https://m.media-amazon.com/images/I/41e+WjJ4P-L._AC_UF226,226_FMjpg_.jpg");
+    height: 276px;
+    cursor: pointer;
+    background-size: cover;
+}
+.box-img8{
+    background-image: url("https://m.media-amazon.com/images/I/81LNj23YNhL._AC_UF226,226_FMjpg_.jpg");
+    height: 276px;
+    cursor: pointer;
+    background-size: cover;
+}
+.box-img9{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img23/JUP23/clp-mock/op/ingress-banner/op_banner_ph3_1500x300.jpg");
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.box-img10{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/3000x700-Banner.jpg");
+    background-size: cover;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.cracker{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cracker p{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.cracker1{
+    background-image: url("https://www.nicepng.com/png/detail/247-2475596_diwali-crackers-png-free-download-diwali-2017-wallpaper.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 50px;
+    margin-right: 10px;
+}
+.cracker2{
+    background-image: url("https://www.nicepng.com/png/detail/247-2475596_diwali-crackers-png-free-download-diwali-2017-wallpaper.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    width: 50px;
+    margin-left: 10px;
+}
+.shop1{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxx{
+    height: 310px;
+    width: 23%;
+    padding: 10px 0px 10px;
+}
+.boxx p{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+.box-img11{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/Evovacs.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+}
+.box-img12{
+background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/ESR.jpg");
+background-size: cover;
+cursor: pointer;
+height: 200px;
+width: 250px;
+}
+.box-img13{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/Carote.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+}
+.box-img14{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/1.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+}
+ .boxx h3{
+   cursor: pointer;
+ }
+ .box-img15{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/tribit.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+ }
+ .box-img16{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/PALAY.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+ }
+ .box-img17{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/Oraimo.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+ }
+ .box-img18{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/Ohuhu.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+ }
+ .box-img19{
+   background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/soundcore.jpg");
+   background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+ }
+ .box-img20{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/Cosrx.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+ }
+ .box-img21{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/Qpets.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+ }
+ .box-img22{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img19/OOC/Gateway/1103/Sunon.jpg");
+    background-size: cover;
+    cursor: pointer;
+    height: 200px;
+    width: 250px;
+ }
+ .img23{
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/PHASE3GWCREATIVES/D98343849_PC_Hero_3000x1200._CB575212378_.jpg");
+    background-size: cover;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.see1{
+    display:inline;
+    justify-content: center;
+    align-items: center;
+
+}
+.see{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+.sign{
+    background-color:#ffe093;
+    background-position: right-170px;
+    margin-left: 640px;
+    width: 180px;
+    display:block;
+    font-size: 12px;
+    line-height: 28px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+.sign p{
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 500;
+}
+.start{
+    display: flex;
+    justify-content: center;
+}
+.start a{
+    color: #007185;
+    cursor: pointer;
+}
+.panel1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #37475a;
+    height: 50px;
+    font-weight:300;
+}
+.panel1:hover{
+    cursor: pointer;
+    background-color: #081828;
+}
+.panel2{
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    height: 320px;
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    margin-top: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+ul p{
+    margin-top: 30px;
+}
+.panel3{
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("https://larrybrownsports.com/wp-content/uploads/2021/02/amazon-logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+.logo1{
+    margin-left: 34px;
+}
+.select{
+    border-radius: 4px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+.jai{
+    background-color: #222f3d;
+    color: white;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 77px;
+}
+.shree a{
+    margin: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.ram a{
+    margin: 5px;
+    font-size: 0.85rem;
+    cursor: pointer;
+}
+.ram{
+    margin-top: 4px;
+}
+.book{
+    background-color: #131a22;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    padding: 20px 0px 10px 90px;
+    
+}
+.shop2{
+    background-color: #131a22;
+    display:flex ;
+    justify-content: space-evenly;
+    height: 100px;
+}
+.boxxx{
+    width: 12%;
+    background-color: #131a22; 
+    color: #dddddd;
+    height: 40px;
+    padding:20px 0px 15px;
+    align-items: center;
+    
+}
+.box-content1{
+     margin-left: 10px;
+    margin-right: 10px;
+}
+.box-content1 p{
+    color: #999999;
+    cursor: pointer;
+    font-size: 0.7rem;
+}
+h4{
+    font-size: 0.82rem;
+    cursor: pointer;
+    color: #dddddd;
+}
+.last{
+    background-color: #131a22;
+    color: white;
+    height: 70px;
+}
+.pages{
+    font-size: 0.85rem;
+    text-align: center;
+}
+.notice{
+    font-size: 0.85rem;
+    text-align: center;
+    color: #dddddd;
+}
+.pages a{
+    margin: 5px;
+    }
+
+
+
+
+
+
+
